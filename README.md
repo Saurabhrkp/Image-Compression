@@ -1,4 +1,4 @@
-# imageCompression
+# Image Compression in Java
 Mini project on Image Compression and Decompression
 
 Data Compression is the process of reduction in size of data in order to save
