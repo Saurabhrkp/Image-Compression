@@ -1,9 +1,23 @@
 # imageCompression
 Mini project on Image Compression and Decompression
+
 Data Compression is the process of reduction in size of data in order to save
 space or transmission time. Information usually contains redundancies i.e
 information is often repeated. Examples include reoccurring letters,
 numbers or pixels. Compression programs remove this redundancy.
+
+## Steps
+
+Download .java file and test.jpg
+
+Compile .java file
+In Cmd/bash run
+
+`javac Compression.java `
+
+Execute .class file
+
+`java Compression`
 
 ## Arithmetic Coding
 Arithmetic coding is a common algorithm used in both lossless and lossy data
@@ -44,9 +58,9 @@ Now, there are 2 essential steps to build a Huffman Tree :
 
 1. Build a Huffman Tree :
 
-  1. Combine the two lowest probability leaf nodes into a new node. 
+  - Combine the two lowest probability leaf nodes into a new node. 
   
-  2. Replace the two leaf nodes by the new node and sort the nodes according to the new probability values.
+  - Replace the two leaf nodes by the new node and sort the nodes according to the new probability values.
   
 3. Continue the steps (a) and (b) until we get a single node with
 probability value 1.0. We will call this node as root
